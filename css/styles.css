@@ -272,8 +272,11 @@ ul {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.team-point:hover .team-inside-link,
-.team-point:focus .team-inside-link {
+.team-point:hover .team-inside-link {
+  background-color: var(--ocean);
+}
+
+.team-inside-link:focus {
   background-color: var(--ocean);
 }
 
@@ -321,7 +324,7 @@ ul {
   gap: 24px;
 }
 .customers-list-item {
-  flex-basis: calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customers-list-link {
@@ -342,8 +345,8 @@ ul {
   fill: currentColor;
 }
 
-.team-inside-link:focus,
-.customers-list-link:hover {
+.customers-list-link:hover,
+.customers-list-link:focus {
   border-color: var(--ocean);
   color: var(--ocean);
 }
