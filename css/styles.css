@@ -135,7 +135,7 @@ ul {
 /* Hero */
 
 .hero {
-  background: var(--navyblue);
+  background-color: var(--navyblue);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -144,10 +144,12 @@ ul {
   background-repeat: no-repeat;
   text-align: center;
   padding: 188px 0;
-  max-width: 1440px;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+
 .hero-header {
   color: var(--white);
 
